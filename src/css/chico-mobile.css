@@ -1863,7 +1863,7 @@ a.ch-btn-skin:visited {
 #hottest {
 	margin: 0;
 	overflow: auto;
-	max-height:500px;
+	max-height: 630px;
 	position: relative;
 	top: 45px;
 }
