@@ -99,7 +99,7 @@ var AppView = Backbone.View.extend({
 	},
 
 	"more": function () {
-		var height = this.$list.height() - 500;
+		var height = this.$list.height() - this.$el.height();
 		var bottom = this.el.scrollTop;
 		if (height === bottom) {
 			this.page += 1;
