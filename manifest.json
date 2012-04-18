@@ -1,0 +1,13 @@
+{
+    "name": "What's hot on Pinterest",
+    "description": "What's hot on Pinterest is a plugin from Chrome to view the most popular pins.",
+    "version": "0.2",
+    "permissions": [
+    	"tabs"
+	],
+    "browser_action": {
+        "default_icon": "src/assets/favicon.png",
+        "default_title": "Hot on Pinterest",
+        "popup": "popup.html"
+    }
+}
