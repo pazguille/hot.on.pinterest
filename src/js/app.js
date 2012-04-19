@@ -44,7 +44,7 @@ var AppView = Backbone.View.extend({
 
 	"initialize": function () {
 		this.page = 1;
-		this.limit = 10;
+		this.limit = 50;
 		this.collection = new PinsCollection();
 		
 		this.$el
